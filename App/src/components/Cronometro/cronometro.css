@@ -1,0 +1,113 @@
+.Timers {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin:20px
+}
+.card{
+ 
+  background-image: linear-gradient(
+    150deg,
+    #80eaf877 0%,
+    #f4ffe7 55%,
+    #cecece67 55%,
+    #11b4fff6 100%
+    
+  );
+  border-radius: 40px;
+  padding: 20px;
+}
+.principal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+#display {
+  margin-bottom: 20px;
+}
+#display span {
+  font-size: 36px;
+}
+#buttons button:nth-child(2) {
+  margin-left: 8px;
+}
+
+button {
+  font-size: 16px;
+  background-color: rgb(217, 60, 35);
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  padding: 6px 12px;
+
+}
+button:hover {
+  background-color: rgb(173, 47, 28);
+}
+button:active {
+  background-color: rgb(130, 35, 21);
+}
+button:focus {
+  outline: 0;
+}
+.listaTime{
+  list-style: none;
+  font-size: 1.5rem;
+ 
+}
+.NameUser{
+font-size: 1.4rem;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(0, 34, 27);
+margin: 0 auto;
+text-align: center;
+font-weight: 300;
+font: italic bold 30px Georgia, Serif;
+text-shadow: -4px 3px 0 #8e9691;
+}
+
+.inputNameUser{
+  border: none;
+  background-color: transparent;
+  border-bottom: 4px solid rgb(62, 179, 4);
+  font-size: 1.5rem;
+}
+.inputNameUser:focus{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 4px solid rgb(62, 179, 4);
+}
+.minuto, .segundo ,.milisegundo{
+background-color: gray;
+border-radius: 10px;
+padding: 15px;
+color: white;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+.btn:hover{
+background-color: white;
+color: green;
+}
+.division{
+border: 2px; height: 2px; text-align: center;
+background-image: linear-gradient(left, #fff, #000, #fff); 
+}
+.title{
+  font-size: 1.5rem;
+  font-weight: 600;
+ 
+  
+}
+.tituloDatos{
+width: 50%;
+height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
