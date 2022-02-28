@@ -10,15 +10,15 @@ function index() {
   return (
 <div >
 <nav>
-
-
+<div className="logo">
+    </div>
   <ul className="nav-links">
     <li className='linksPer'>
-      <a href="https://github.com/EdgarCalel" target="_blank" >
-        <GitHubIcon sx={{ fontSize: 40, color:'white' }} /> 
+      <a href="https://github.com/EdgarCalel" target="_blank" rel="noreferrer" >
+        <GitHubIcon sx={{ fontSize: 40}} /> 
       </a>
-      <a href="https://www.linkedin.com/in/edgarcalel/" target={"_blank"} >
-<LinkedInIcon sx={{ fontSize: 40, color:'white' }} />
+      <a href="https://www.linkedin.com/in/edgarcalel/" target={"_blank"} rel="noreferrer" >
+<LinkedInIcon sx={{ fontSize: 40,  }} />
       </a>
     </li>
     
