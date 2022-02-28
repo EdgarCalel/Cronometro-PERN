@@ -14,7 +14,7 @@ function index() {
     </div>
   <ul className="nav-links">
     <li className='linksPer'>
-      <a href="https://github.com/EdgarCalel" target="_blank" rel="noreferrer" >
+      <a href="https://github.com/EdgarCalel/Cronometro-PERN" target="_blank" rel="noreferrer" >
         <GitHubIcon sx={{ fontSize: 40}} /> 
       </a>
       <a href="https://www.linkedin.com/in/edgarcalel/" target={"_blank"} rel="noreferrer" >
