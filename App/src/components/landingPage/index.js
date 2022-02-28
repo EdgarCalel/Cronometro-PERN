@@ -20,17 +20,17 @@ function index() {
       <a href="https://www.linkedin.com/in/edgarcalel/" target={"_blank"} rel="noreferrer" >
 <LinkedInIcon sx={{ fontSize: 40,  }} />
       </a>
+<h2 className='tituloRedes'>Siguenos</h2>
     </li>
     
   </ul>
-
 </nav>
 <main className="hero">
   <div className="row">
     
      <div className="content-wrapper ">
      <div className="logo">
-  <img src={Reloj} alt="" />
+  <img clasName="logoper" src={Reloj} alt="" />
     </div>
    <h1>Generar metricas de tiempos en procesos</h1>
        <p> Realiza pruebas y toma el tiempo que se tomo para realizar la accion y guarda un registro de sus resultados</p>
