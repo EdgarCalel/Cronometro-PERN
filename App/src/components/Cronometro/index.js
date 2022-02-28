@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { Link } from "react-router-dom";
 
 
-const App = () => {
+const Index = () => {
   const notify = () => toast.success('Se ha registrado su solicitud!', {
     position: "bottom-right",
     autoClose: 5000,
@@ -88,7 +88,8 @@ const toto =
         <input className="inputNameUser" required value={TimePerson.name} type="text" name="name" onChange={handleChange}/>
         </span>)}
 
-       { TimePerson.stepTime.length >0 && <ul>
+       { TimePerson.stepTime.length >0 && 
+       <ul>
         <span className="title">Datos</span>
         <hr className="tituloDatos"/>
            {TimePerson.stepTime.map(function(tiempo, index){return <li className="listaTime" name={tiempo} key={ index }> {tiempo}</li>})}
@@ -110,9 +111,11 @@ const toto =
         pauseOnHover
         />
     </form>
+  
     </div>
+  
     </div>
   );
 };
 
-export default App;
+export default Index;

@@ -4,24 +4,21 @@ import {
   Routes} from "react-router-dom";
 import Timer from './components/Cronometro/index'
 import Landing from './components/landingPage';
-
-
+import Registros from "./components/Cronometro/Registros";
+import Navbar from './components/navbar/navbar'
 
 function App() {
-  return (
 
+  return (
     <div className="App">
-      <div className="headerP">
       <Routes>
         <Route exact path='/' element={<Landing />} />
       </Routes>
-      </div>
-      <div >
+  <Navbar  />   
   <Routes>
     <Route exact path='/Home' element={<Timer />} />
+    <Route exact path='/registros' element={<Registros />} />
   </Routes>
-
-</div>
     </div>
   );
 }

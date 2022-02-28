@@ -1,20 +1,20 @@
-import './navbar.css';
-
-export default function Navbar () {
+import React from 'react'
+import { Link } from 'react-router-dom'
+import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
+import AppRegistrationOutlinedIcon from '@mui/icons-material/AppRegistrationOutlined';
+import HistoryToggleOffOutlinedIcon from '@mui/icons-material/HistoryToggleOffOutlined';
+import './navbar.css'
+function Index() {
   return (
-
-      <>
-          <div className="navContenido">
-          <div className='iconoPerro'>
-          <img src="https://cdn-icons-png.flaticon.com/512/3636/3636172.png" alt="" width={47} />
-          </div>
-          <div className="searchDiv">
-
-</div>
+    <div>
+      <div className="navContenido">
+<Link to={'/'} ><h1 className='linkMenu'><HomeOutlinedIcon /> Inicio </h1></Link>       
+<Link to={'/registros'} ><h1 className='linkMenu'><AppRegistrationOutlinedIcon /> Registros </h1></Link>
+<Link to={'/Home'} ><h1 className='linkMenu'><HistoryToggleOffOutlinedIcon /> Cronometro </h1></Link>
           </div>
 
-        
-      </>
+    </div>
+  )
+}
 
-  );
-};
+export default Index
