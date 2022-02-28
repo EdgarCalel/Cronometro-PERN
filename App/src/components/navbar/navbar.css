@@ -16,8 +16,48 @@ z-index: 101;
     color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-
+@media screen and (max-width:768px){
+    .navContenido{
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        background: url('https://fondosmil.com/fondo/17021.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50px;
+    border-bottom: 10px solid green;
+    position:fixed;
+    
+    width: 100%;
+    z-index: 101;
+    }
+    .linkMenu{
+        color: white;
+        font-size: 1rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+ }
+ @media screen and (max-width:280px){
+    .navContenido{
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        background: url('https://fondosmil.com/fondo/17021.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50px;
+    border-bottom: 10px solid green;
+    position:fixed;
+    
+    width: 100%;
+    z-index: 101;
+    }
+    .linkMenu{
+        color: white;
+        font-size: 0.6rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+ }
 
 
 
